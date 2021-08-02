@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="notes_style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Notes</title>
+</head>
+
+<body>
+  <h1>HTML Notes</h1>
+
+
+  <!-- Heading -->
+  <h2 class="heading" id="lists">Lists</h2>
+  <div class="list">
+    <!-- This is my subtitle -->
+    <h3 class="subtitle">This is a unordered list</h3>
+    <ul>
+      <li>line 1</li>
+      <li>line 2</li>
+      <li>line 3</li>
+    </ul>
+
+
+    <h3 class="subtitle">This is a ordered list</h3>
+    <ol>
+      <li>line 1</li>
+      <li>line 2</li>
+      <li>line 3</li>
+    </ol>
+  </div>
+
+  <div class="table">
+    <h2 class="heading">Tables</h2>
+  </div>
+
+  <div class="form">
+    <h2 class="heading">Forms</h2>
+  </div>
+
+  <div class="button">
+    <h2 class="heading">Buttons</h2>
+
+    <!-- A button that does nothing -->
+    <button>regular button</button>
+
+    <!-- A button that takes me to google.com -->
+    <a href="http://www.google.com" target="_blank">
+
+      <button>google button</button>
+    </a>
+    <br>
+    <br>
+
+    <p>To make a button that acts like a hyperlink you need to put the button tag inside the a href tag. ahref - button
+      - ahref</p>
+    <!-- Picture of button example -->
+    <img src="images/buttons.jpg" alt="buttons example">
+  </div>
+
+  <div class="text/box">
+    <!-- Heading -->
+    <h2 class="heading">CSS - Text/Box Shadows</h2>
+
+    <p id="textshadow">Here is a textshadow </p>
+    <p id="boxshadow">Here is a box shadow</p>
+    <p>Box shadow is used with borders, but borders aren't mandatory <br>You can have multiple shadows by adding a ,
+      (comma)<br>ex: 2px 2px 2px red, 2px 2px 2px blue</p>
+  </div>
+  <!-- Picture of shadow example -->
+  <img src="images/shadows.jpg" alt="shadow example.">
+  <!-- Heading -->
+  <h2 class="heading">Pseudo Classes (CSS)</h2>
+
+  <div class="linkpseudo">
+    <!-- Subtitle -->
+    <h3 class="subtitle">Link/Visited Pseudo </h3>
+
+    <!-- Picture of link examples -->
+    <img src="images/pseudolink.jpg">
+    <br>
+    <!-- Explanation of link pseudo  -->
+    <p>The link psuedo applies to links that are unvisited<br></p>
+
+    <!-- Hyperlink -->
+    <a id="link1" href="www.google.com" target="_blank">Hyperlink</a>
+    <br><br>
+
+    <!-- Explanation of visited pseudo  -->
+    <p>The visited pseudo applies to links that were visited or clicked on</p>
+    <!-- Hyperlink -->
+    <a id="link2" href="#">Hyperlink</a>
+  </div>
+
+  <div class="buttonpseudo">
+    <!-- Subtitle -->
+    <h3 class="subtitle">Hover Pseudo with buttons</h3>
+
+    <!-- Explanation of hover pseudo  -->
+    <p>The properties are applied when you hover over the object<br></p>
+
+    <!-- Button that changes color when you hover over it -->
+    <button id="btn1">Hover Over Me</button>
+
+    <!-- Button that changes color when you click or hold it -->
+    <button id="btn2">Click or Hold Me</button>
+  </div>
+
+  <div id="listpseudo">
+    <!-- Subtitle -->
+    <h3 class="subtitle">Lists Pseudo</h3>
+
+    <!-- Explanation and demonstation of first-child pseudo -->
+    <p>first-child applies to the first item on the list<br>last-child works the same way. it applies to the last item
+      on the list<br>the example below is a first-child</p>
+    <ul>
+      <li class="list1">line 1</li>
+      <li class="list1">line 2</li>
+      <li class="list1">line 3</li>
+    </ul>
+
+    <img src="images/firstchild.jpg">
+
+    <p>nth-child(x)</p>
+    <ul>
+      <li class="list2">line 1</li>
+      <li class="list2">line 2</li>
+      <li class="list2">line 3</li>
+      <li class="list2">line 4</li>
+      <li class="list2">line 5</li>
+    </ul>
+
+    <p>nth-child(an+b)<br>
+      this list changes the color of every 2 items nth-child(2n+0)</p>
+    <ul>
+      <li class="list3">line 1</li>
+      <li class="list3">line 2</li>
+      <li class="list3">line 3</li>
+      <li class="list3">line 4</li>
+      <li class="list3">line 5</li>
+    </ul>
+
+    <!-- Example image -->
+    <img src="images/nthchild.jpg">
+  </div>
+
+
+
+
+</body>
+
+</html>

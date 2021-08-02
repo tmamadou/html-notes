@@ -1,0 +1,60 @@
+body {
+  margin: 0 15% 5% 15%;
+  font-size: 18px;
+  background-color: #add9e6;
+  overflow: scroll;
+  height: 4000px;
+}
+
+#textshadow {
+  text-shadow: 2px 2px 0px lightcoral;
+}
+
+#boxshadow {
+  border: 1px solid;
+  width: 225px;
+  box-shadow: 3px 3px 0px palevioletred;
+}
+
+/* This changes the color of unvisited links */
+#link1:link {
+  color: yellowgreen;
+}
+
+/* This changes the color of visited links */
+#link2:visited {
+  color: orangered;
+}
+
+#btn1:hover {
+  background-color: tomato;
+  color: wheat;
+}
+
+#btn2:active {
+  background-color: black;
+  color: white;
+}
+
+.list1:first-child {
+  color: tomato;
+}
+
+.list2:nth-child(3) {
+  /* This changes the 3rd item in the list to orange */
+  background-color: orangered;
+  color: white;
+  width: 210px;
+}
+
+/* This applies to every 2 items. */
+.list3:nth-child(2n + 0) {
+  /*an+b
+    a = cycle value. (ex: 4 = every 4 items)
+    n = counter (doesnt change)
+    b = starting point. put 0 to start normally. */
+
+  background-color: orangered;
+  color: white;
+  width: 210px;
+}
